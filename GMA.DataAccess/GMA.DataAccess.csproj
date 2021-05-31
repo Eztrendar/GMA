@@ -6,7 +6,14 @@
 
   <ItemGroup>
     <Folder Include="Resources\" />
-    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SQLite" Version="1.0.114.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GMA.Domain\GMA.Domain.csproj" />
   </ItemGroup>
 
 </Project>
