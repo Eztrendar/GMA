@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GMA.Server", "GMA\Server\GMA.Server.csproj", "{5C9E8412-F5D7-4B2D-81E9-D8B69E1132D1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GMA.Server", "GMA.Server\GMA.Server.csproj", "{5C9E8412-F5D7-4B2D-81E9-D8B69E1132D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GMA.Client", "GMA\Client\GMA.Client.csproj", "{9E7646EA-9F2A-4EAF-9B68-20050923215C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GMA.Client", "GMA.Client\GMA.Client.csproj", "{9E7646EA-9F2A-4EAF-9B68-20050923215C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GMA.Domain", "GMA\Shared\GMA.Domain.csproj", "{9BF16819-2564-41EA-B697-5A82DB391E9D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GMA.Domain", "GMA.Domain\GMA.Domain.csproj", "{9BF16819-2564-41EA-B697-5A82DB391E9D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GMA.DataAccess", "GMA.DataAccess\GMA.DataAccess.csproj", "{8499BF29-1FB0-4129-94E2-17338205A855}"
 EndProject
