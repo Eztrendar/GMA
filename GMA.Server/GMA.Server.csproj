@@ -9,8 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Client\GMA.Client.csproj" />
-    <ProjectReference Include="..\Shared\GMA.Domain.csproj" />
+    <ProjectReference Include="..\GMA.Domain\GMA.Domain.csproj" />
   </ItemGroup>
 
 
