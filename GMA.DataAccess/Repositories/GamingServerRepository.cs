@@ -2,7 +2,7 @@
 
 namespace GMA.DataAccess.Repositories
 {
-    public class ServerRepository : IServerRepository
+    public class GamingServerRepository : IGamingServerRepository
     {
     }
 }

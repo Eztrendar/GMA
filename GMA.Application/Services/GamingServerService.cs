@@ -2,11 +2,11 @@
 
 namespace GMA.Application.Services
 {
-    public class ServerService : IServerService
+    public class GamingServerService : IGamingServerService
     {
         private readonly IServerRepository _serverRepo;
 
-        public ServerService(IServerRepository serverRepo)
+        public GamingServerService(IGamingServerRepository serverRepo)
         {
             _serverRepo = serverRepo;
         }
