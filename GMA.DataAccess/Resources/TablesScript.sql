@@ -22,7 +22,7 @@ FOREIGN KEY (OwnerId) REFERENCES Owner(OwnerId)
 CREATE TABLE IF NOT EXISTS GamingServerTag(
 GamingServerId INTEGER NOT NULL,
 TagId INTEGER NOT NULL,
-FOREIGN KEY (GamingServerId) REFERENCES Server(GamingServerId),
+FOREIGN KEY (GamingServerId) REFERENCES GamingServer(GamingServerId),
 FOREIGN KEY (TagId) REFERENCES Tag(TagId)
 );
 
@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS GamingServerImage(
 GamingServerImageId INTEGER PRIMARY KEY AUTOINCREMENT,
 Content BLOB NOT NULL,
 GamingServerId INTEGER NOT NULL,
-FOREIGN KEY (GamingServerId) REFERENCES Server(GamingServerId)
+FOREIGN KEY (GamingServerId) REFERENCES GamingServer(GamingServerId)
 );
 
 CREATE TABLE IF NOT EXISTS GamingServerSubscription(
@@ -38,6 +38,6 @@ GamingServerSubscriptionId INTEGER PRIMARY KEY AUTOINCREMENT,
 AvailableFrom datetime NOT NULL,
 AvailableUntil datetime NOT NULL,
 GamingServerId INTEGER NOT NULL,
-FOREIGN KEY (GamingServerId) REFERENCES Server(GamingServerId)
+FOREIGN KEY (GamingServerId) REFERENCES GamingServer(GamingServerId)
 );
 

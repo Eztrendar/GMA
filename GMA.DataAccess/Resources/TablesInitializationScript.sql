@@ -15,7 +15,7 @@ VALUES ('EX-MNB','Cel mai bun server dedicat jocurilor sportive.','https://www.w
 	   ('APERTURE','Best server in Europe for RACING games.','https://www.wikipedia.org',1003,3),
 	   ('POP99','Serverul perfect pentru a te relaxa dupa o zi la scoala.','https://www.wikipedia.org',8082,4);
 	   
-INSERT INTO ServerTag (GamingServerId, TagId) 
+INSERT INTO GamingServerTag (GamingServerId, TagId) 
 VALUES (1,1),(1,2),
 	   (2,2),(2,3),
 	   (3,3),(3,4),(3,5),
@@ -23,7 +23,7 @@ VALUES (1,1),(1,2),
 	   (5,5),(5,7),
 	   (6,6),(6,8),(6,9);
 
-INSERT INTO ServerSubscription (AvailableFrom, AvailableUntil, GamingServerId) 
+INSERT INTO GamingServerSubscription (AvailableFrom, AvailableUntil, GamingServerId) 
 VALUES (datetime('2021-01-01 10:00:00'),datetime('2021-02-01 10:00:00'), 1),
 	   (datetime('2021-02-01 10:00:00'),datetime('2021-03-01 10:00:00'), 1),
 	   (datetime('2021-03-01 10:00:00'),datetime('2021-04-01 10:00:00'), 1),
